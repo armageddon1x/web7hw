@@ -1,0 +1,29 @@
+*{
+	margin: 0px;
+	padding: 0px;}
+body{
+	background-image: url("../images/astro/pleiades.jpg");
+	/*background: rgba(0,0,0,1);*/
+	background-size: 100%;
+}
+
+nav{
+	background: rgba(0,0,0,.7);
+	width: 15%;
+	height: 100vh;
+	font-family: arial;
+	font-size: 18px;
+}
+ul{
+
+}
+ul a{color: rgb(240,240,240);text-decoration: none;}
+ul li{
+	padding: 5px;
+	margin-bottom: 5px;
+}
+ul li:hover{
+	color: black;
+	background: white;
+	font-weight: bold;
+}
