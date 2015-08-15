@@ -1,10 +1,15 @@
 *{
 	margin: 0px;
 	padding: 0px;}
-/*#pleiades{
-	background-image: url("../images/astro/pleiades.jpg");
+#pleiades{
+	background-image:
+	url("../images/astro/pleiades_edit.png");
 	background-size: 100%;
-}*/
+}
+#saturn{
+	padding: 40px 0px;
+	background: black;
+}
 nav{
 	background: rgba(0,0,0,.7);
 	width: 15%;
@@ -15,7 +20,6 @@ nav{
 	z-index: 2;
 }
 nav ul{
-	padding-top: 100px;
 }
 nav ul li{
 	padding: 5px;
@@ -58,9 +62,8 @@ header{
 }
 
 #container{
-	background: rgba(0,0,0,.5);
-	color: rgb(51, 173, 255);
-	text-shadow: 1px 1px 0 white;
+	color: rgb(225,225,225);
+	-webkit-text-stroke: .5px #0EABFF;
 	font-size: 20px;
 	font-family: verdana;
 	width: 75%;
@@ -95,7 +98,11 @@ p{
 	z-index: 3;
 }
 #social_media_bar ul{
-	list-style:none;	
+	list-style:none;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	display: inline-block;	
 }
 #social_media_bar ul li{
 	list-style: none;
@@ -110,6 +117,7 @@ p{
 }
 h1{
 	background: rgba(0,0,0,.7);
+	-webkit-text-stroke: 1px rgb(200,200,200);
 	color: blue;
 	padding: 10px 0px;
 	text-indent: 100px;
@@ -118,14 +126,20 @@ h1{
 	margin: 0 auto;
 }
 
-#donate{
+#donate_button_l,#donate_button_r{
 	width: 100px;
-	position: relative;
-	background: #3CDEF0;
-	color: #001570;
+	background: white;
+	padding: 8px 0px;
+	font-size: 20px;
 	display: inline-block;
-	top: 0px;
+	position: relative;
 }
+#donate_button_l{
+	float: left;
+	left: 250px;}
+#donate_button_r{
+	float: right;
+	left: -250px;}
 /*second page*/
 #soc_nav{
 	width:10%;
