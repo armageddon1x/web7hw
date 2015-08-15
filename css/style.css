@@ -65,9 +65,9 @@ header{
 	color: rgb(225,225,225);
 	-webkit-text-stroke: .5px #0EABFF;
 	font-size: 20px;
-	font-family: verdana;
 	width: 75%;
 	position: relative;
+	font-family: verdana;
 	left: 15%;
 	top: 195px;
 	padding: 0px 5%;
@@ -75,6 +75,7 @@ header{
 p{
 	padding: 10px;
 	line-height: 30px;
+	font-family: verdana;
 }
 #acronym{
 	background: rgb(20,20,20);
@@ -124,6 +125,7 @@ h1{
 	border-left: solid white 40px;
 	width: 95%;
 	margin: 0 auto;
+	font-family: verdana;
 }
 
 #donate_button_l,#donate_button_r{
@@ -142,50 +144,74 @@ h1{
 	left: -250px;}
 /*second page*/
 #soc_nav{
-	width:10%;
+	width:150px;
 	height: 100vh;
 	background: rgb(50,50,50);
 	color: white;
 	font-size: 30px;
-	padding-top: 100px;
+	padding-top: 20px;
 	position: fixed;
-	z-index: 10;
+	z-index: 9;
+}
+#nasa_logo{
+	width: 150px;
+	padding-bottom: 30px;
 }
 #soc_nav ul{
 	list-style: none;
 	padding-left: 10px;
 }
 #container2{
-	width: 90%;
-	height: 90vh;
-	background: gray;
+	width: 75%;
 	position: relative;
+	padding: 20px 6.85%;
 	top: 20%;
-	left: 10%;
+	left: 150px;
+	font-weight: bold;
+	font-size: 22px;
+	color: white;
+	position: relative;
+	left: 150px;
+	top: 129px;
+}
+#space{
+	background: gray;
+}
+#about_head{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	z-index: 10;
+	font-family: impact;
+	font-size: 100px;
+	color: white;
+	background-image: 
+	url("../images/astro/pleiades.png");
+	background-position: 40% 60%;
+	padding: 5px 0px;
+	-webkit-text-stroke: 4px rgb(25,25,150);
 }
 
-li.tooltips {
+a.tooltips {
   position: relative;
   display: inline;
 }
-li.tooltips span {
+a.tooltips span {
   position: absolute;
   width:140px;
   color: #66FAFF;
-  background: #363636;
-  height: 71px;
-  line-height: 71px;
+  background: black;
   text-align: center;
   visibility: hidden;
   border-radius: 0px;
 }
 
-li:hover.tooltips span {
+a:hover.tooltips span {
   visibility: visible;
   left: 100%;
   top: 50%;
-  margin-top: -60px;
-  margin-left: 125px;
+  margin-top: -34px;
+  margin-left: 140px;
   z-index: 8;
 }
 
