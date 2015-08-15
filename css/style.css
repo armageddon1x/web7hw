@@ -170,21 +170,23 @@ li:hover.tooltips span {
   visibility: visible;
   left: 100%;
   top: 50%;
-   margin-top: -60px;
+  margin-top: -60px;
   margin-left: 125px;
   z-index: 8;
 }
 
 /*donation*/
 #donation_box{
-	height: 400px;
+	height: 500px;
 	width: 65%;
-	border: 2px solid black;
+	border: 3px solid white;
 	position: relative;
 	margin: 0 auto;
 	margin-top: 200px;
+	background: rgba(0,0,0,.5);
 }
 #button_box{
+	padding-top: 30px;
 	text-align: center;
 }
 
@@ -207,7 +209,7 @@ li:hover.tooltips span {
   text-align: center;
   display: inline-block;
   margin: 0 30px;
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 #btn:hover {
   background: #1c567a;
@@ -217,4 +219,93 @@ li:hover.tooltips span {
   background-image: -o-linear-gradient(top, #1c567a, #1ba1fa);
   background-image: linear-gradient(to bottom, #1c567a, #1ba1fa);
   text-decoration: none;
+}
+
+form p {
+	margin: 0px;
+	padding: 0px 10px;
+	display: inline-block;
+	font-size: 22px;
+	color: white;
+	width: 12%
+}
+
+form input{
+	padding: 10px;
+	font-family: verdana;
+	color: white;
+	background: rgb(25,25,25);
+	font-size: 20px;
+}
+#name_box{
+	margin-top: 30px;
+}
+#unique_donation{
+text-align: center;
+margin-top: 20px;
+}
+#unique_donation p{
+	color: white;
+	font-size: 26px;
+	display: inline-block;
+}
+#stars{
+	background-image: url("../images/astro/stars.jpg");
+	background-size: 100%;
+}
+
+#sub{
+	width: 10%;
+	padding: 10px;
+	height: 48px;
+	background: rgb(50,50,50);
+	color: rgb(200,200,200);
+	font-size: 22px;
+}
+#donation_head{
+	/* Permalink - use to edit and share this gradient:
+	 http://colorzilla.com/gradient-editor/
+	 #000875+0,000649+41,1e2572+100 */
+	background: #000875; /* Old browsers */
+	background: -moz-linear-gradient
+	(45deg,  #000875 0%, #000649 41%, #1e2572 100%); 
+	/* FF3.6+ */
+	background: -webkit-gradient
+	(linear, left bottom, right top, 
+		color-stop(0%,#000875), 
+		color-stop(41%,#000649), 
+		color-stop(100%,#1e2572)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient
+	(45deg,  #000875 0%,#000649 41%,#1e2572 100%); 
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient
+	(45deg,  #000875 0%,#000649 41%,#1e2572 100%); 
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient
+	(45deg,  #000875 0%,#000649 41%,#1e2572 100%); 
+	/* IE10+ */
+	background: linear-gradient
+	(45deg,  #000875 0%,#000649 41%,#1e2572 100%); 
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient
+	( startColorstr='#000875', endColorstr='#1e2572',
+		GradientType=1 ); 
+	/* IE6-9 fallback on horizontal gradient */
+
+	color: #DAFCFF;
+	width: 100%;
+	font-family: arial;
+	font-weight: bold;
+	padding: 10px 0px;
+	-webkit-text-stroke: 3px #0EABFF;
+}
+#donation_foot{
+	width: 100%;
+	padding: 10px 0px;
+	background: black;
+	color: #0EABFF;
+	text-align: center;
+	font-size: 24px;
+	position: relative;
+	margin-top: 40px;
 }
