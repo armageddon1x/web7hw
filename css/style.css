@@ -203,12 +203,17 @@ h1{
 	padding: 20px 6.85%;
 	top: 20%;
 	left: 150px;
-	font-weight: bold;
-	font-size: 22px;
+	font-size: 18px;
 	color: white;
 	position: relative;
 	left: 150px;
 	top: 129px;
+}
+#container2 p{
+	width: 80%;
+	margin: 0 auto;
+	background: rgba(0,0,0,.8);
+	padding: 30px;
 }
 #space{
 	background-image:
@@ -263,13 +268,22 @@ a:hover.tooltips span {
   z-index: 8;
 }
 /*donation*/
+#why_donate{
+	width: 62.5%;
+	margin: 0 auto;
+	color: white;
+	font-size: 18spx;
+	background: rgba(0,0,0,.7);
+	margin-top: 200px;
+	padding: 20px;
+}
 #donation_box{
 	height: 540px;
 	width: 65%;
 	border: 3px solid white;
 	position: relative;
 	margin: 0 auto;
-	margin-top: 200px;
+	margin-top: 50px;
 	background: rgba(0,0,0,.5);
 }
 #button_box{
