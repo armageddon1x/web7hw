@@ -95,7 +95,12 @@ p{
 	position: absolute;
 	top: 155px;
 	padding-bottom: 5px;
-	z-index: 3;
+	z-index: 4;
+}
+#anchor{position:absolute;top: 155px;}
+#social_media_bar.fixed{
+	position:fixed;
+	top:0px;
 }
 #social_media_bar ul{
 	list-style:none;
