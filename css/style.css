@@ -1,6 +1,5 @@
-*{
-	margin: 0px;
-	padding: 0px;}
+*{margin: 0px;padding: 0px;}
+/*main page*/
 #pleiades{
 	background-image:
 	url("../images/astro/pleiades_edit.png");
@@ -87,6 +86,7 @@ p{
 	z-index: 4;
 	width: 100%;
 }
+/*social media bar and anchor*/
 #social_media_bar{
 	background: black;
 	width: 100%;
@@ -131,7 +131,7 @@ h1{
 	margin: 0 auto;
 	font-family: verdana;
 }
-
+/*donate buttons on nav bar*/
 .donate_button_l{
 	width: 100px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00bfbc+0,9df9f8+100 */
@@ -194,7 +194,7 @@ h1{
 	background: linear-gradient(45deg, #2850ef 0%,#000256 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2850ef', endColorstr='#000256',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
-/*second page*/
+/*about page*/
 #soc_nav{
 	width:150px;
 	height: 100vh;
@@ -253,6 +253,7 @@ h1{
 	padding: 5px 0px;
 	-webkit-text-stroke: 4px rgb(25,25,150);
 }
+/*tooltips for nav bar on about page*/
 a.tooltips {
   position: relative;
   display: inline;
@@ -286,7 +287,7 @@ a:hover.tooltips span {
   margin-left: 140px;
   z-index: 8;
 }
-/*donation*/
+/*donation page*/
 #why_donate{
 	width: 62.5%;
 	margin: 0 auto;
@@ -405,6 +406,7 @@ form input{
 	position: relative;
 	margin-top: 40px;
 }
+/*astronomy page*/
 #astronomy_head{
 	color: white;
 	background: black;
@@ -471,6 +473,7 @@ hr{
 	border-top: dashed 3px white;
 	margin: 20px 0px;
 }
+/*image page*/
 .img_container{
 	width: 100%;
 	text-align: center;
