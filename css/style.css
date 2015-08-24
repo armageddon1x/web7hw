@@ -131,7 +131,8 @@ h1{
 	margin: 0 auto;
 	font-family: verdana;
 }
-#donate_button_l,#donate_button_r{
+
+.donate_button_l{
 	width: 100px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00bfbc+0,9df9f8+100 */
 	background: #00bfbc; /* Old browsers */
@@ -147,39 +148,52 @@ h1{
 	display: inline-block;
 	position: relative;
 	color: black;
-}
-#donate_button_l:hover{
-	color: white;
-	font-weight: bold;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2850ef+0,000256+100 */
-	background: #2850ef; /* Old browsers */
-	background: -moz-linear-gradient(45deg, #2850ef 0%, #000256 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#2850ef), color-stop(100%,#000256)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(45deg, #2850ef 0%,#000256 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(45deg, #2850ef 0%,#000256 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(45deg, #2850ef 0%,#000256 100%); /* IE10+ */
-	background: linear-gradient(45deg, #2850ef 0%,#000256 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2850ef', endColorstr='#000256',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-#donate_button_r:hover{
-	color: white;
-	font-weight: bold;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2850ef+0,000256+100 */
-	background: #2850ef; /* Old browsers */
-	background: -moz-linear-gradient(45deg, #2850ef 0%, #000256 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#2850ef), color-stop(100%,#000256)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(45deg, #2850ef 0%,#000256 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(45deg, #2850ef 0%,#000256 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(45deg, #2850ef 0%,#000256 100%); /* IE10+ */
-	background: linear-gradient(45deg, #2850ef 0%,#000256 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2850ef', endColorstr='#000256',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-#donate_button_l{
 	float: left;
 	left: 250px;}
-#donate_button_r{
+.donate_button_r{
+	width: 100px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00bfbc+0,9df9f8+100 */
+	background: #00bfbc; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #00bfbc 0%, #9df9f8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#00bfbc), color-stop(100%,#9df9f8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg, #00bfbc 0%,#9df9f8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg, #00bfbc 0%,#9df9f8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg, #00bfbc 0%,#9df9f8 100%); /* IE10+ */
+	background: linear-gradient(45deg, #00bfbc 0%,#9df9f8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bfbc', endColorstr='#9df9f8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding: 8px 0px;
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	color: black;
 	float: right;
 	left: -250px;}
+.donate_button_l:hover{
+	color: white;
+	font-weight: bold;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2850ef+0,000256+100 */
+	background: #2850ef; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #2850ef 0%, #000256 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#2850ef), color-stop(100%,#000256)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg, #2850ef 0%,#000256 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg, #2850ef 0%,#000256 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg, #2850ef 0%,#000256 100%); /* IE10+ */
+	background: linear-gradient(45deg, #2850ef 0%,#000256 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2850ef', endColorstr='#000256',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.donate_button_r:hover{
+	color: white;
+	font-weight: bold;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2850ef+0,000256+100 */
+	background: #2850ef; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #2850ef 0%, #000256 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#2850ef), color-stop(100%,#000256)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg, #2850ef 0%,#000256 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg, #2850ef 0%,#000256 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg, #2850ef 0%,#000256 100%); /* IE10+ */
+	background: linear-gradient(45deg, #2850ef 0%,#000256 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2850ef', endColorstr='#000256',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
 /*second page*/
 #soc_nav{
 	width:150px;
@@ -283,7 +297,7 @@ a:hover.tooltips span {
 	padding: 20px;
 }
 #donation_box{
-	height: 540px;
+	height: 610px;
 	width: 65%;
 	border: 3px solid white;
 	position: relative;
@@ -291,11 +305,11 @@ a:hover.tooltips span {
 	margin-top: 50px;
 	background: rgba(0,0,0,.5);
 }
-#button_box{
+.button_box{
 	padding-top: 30px;
 	text-align: center;
 }
-#btn {
+.btn {
   background: #30acff;
   background-image: -webkit-linear-gradient(top, #30acff, #1f6794);
   background-image: -moz-linear-gradient(top, #30acff, #1f6794);
@@ -316,7 +330,7 @@ a:hover.tooltips span {
   margin: 0 30px;
   margin-top: 30px;
 }
-#btn:hover {
+.btn:hover {
   background: #1c567a;
   background-image: -webkit-linear-gradient(top, #1c567a, #1ba1fa);
   background-image: -moz-linear-gradient(top, #1c567a, #1ba1fa);
@@ -329,9 +343,8 @@ form p {
 	margin: 0px;
 	padding: 0px 10px;
 	display: inline-block;
-	font-size: 22px;
 	color: white;
-	width: 12%
+	width: 13%
 }
 form input{
 	padding: 10px;
@@ -408,7 +421,12 @@ form input{
 	line-height: 20px;
 	color: rgb(200,200,200);
 }
-#content p{background: rgba(0,0,0,.6);}
+#content p{
+	background: rgba(0,0,0,.8);
+	border-radius: 20px;
+	margin-bottom: 30px;
+	border: double white 5px;
+}
 #earth{
 	background-image:
 	url("../images/astro/earth.jpg");
@@ -423,6 +441,30 @@ form input{
 	text-indent: 0px;
 	width: auto;
 	font-size: 50px;
+}
+#bottom_bar{
+	width: 100%;
+	color: white;
+	background: black;
+	text-align: center;
+	font-size: 30px;
+	padding: 60px 0px;
+}
+#bottom_bar a{
+	font-size: 24px;
+	text-decoration: none;
+	color: rgb(100,100,100);
+}
+#bottom_bar li{
+	padding: 10px 0px;
+}
+#bottom_bar li:hover{
+	background: white;
+	color: black;
+	font-weight: bold;
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 20px;
 }
 hr{
 	border: none;

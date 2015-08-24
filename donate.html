@@ -20,30 +20,40 @@
 		<div id="name_box">
 			<form>
 				<p>First Name:</p>
-				<input type="text" placeholder="First Name">
+				<input id="fname" type="text" placeholder="First Name"style="width:250px;">
 				<p>Last Name:</p>
-				<input type="text" placeholder="Last Name">
+				<input id="lname" type="text" placeholder="Last Name"style="width:250px;">
 				<br>
 				<br>
 				<p>E-Mail:</p>
-				<input type="email" placeholder="E-Mail" style="width:700px;">
+				<input id="email" type="email" placeholder="E-Mail" style="width:666px;">
+				<br>
+				<br>
+				<p>Credit Card:</p>
+				<input type="text" placeholder="Credit Card #" style="width:666px;">
+				<br>
+				<br>
+				<p>Security #:</p>
+				<input type="text" placeholder="Security #" style="width:250px;">
+				<p>Exp. Date:</p>
+				<input type="text" placeholder="MM/YYYY" style="width:250px;">
 			</form>
 		</div>
 		<div id="button_box">
-			<div id="btn">$1</div>
-			<div id="btn">$5</div>
-			<div id="btn">$10</div>
-			<div id="btn">$20</div>
-			<div id="btn">$25</div>
-			<div id="btn">$50</div>
-			<div id="btn">$100</div>
-			<div id="btn">$200</div>
+			<div class="btn">$1</div>
+			<div class="btn">$5</div>
+			<div class="btn">$10</div>
+			<div class="btn">$20</div>
+			<div class="btn">$25</div>
+			<div class="btn">$50</div>
+			<div class="btn">$100</div>
+			<div class="btn">$200</div>
 		</div>
 		<div id="unique_donation">
 			<p>Or Put Your Specific Donation Here!</p>
 			<form>
-			<input type="number" pattern="^\\$?(([1-9](\\d*|\\d{0,2}(,\\d{3})*))|0)(\\.\\d{1,2})" placeholder="Enter Amount Here">
-			<button type="submit" id="sub">Submit</button>
+			<input type="text" placeholder="Enter Amount Here">
+			<button id="sub">Submit</button>
 			</form>
 		</div>
 	</div>
